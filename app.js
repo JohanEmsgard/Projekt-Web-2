@@ -8,3 +8,5 @@ function changeGBPrice(event) {
         document.querySelector(".price-container").innerHTML = "7000:- SEK";
     }
 }
+
+document.querySelector("GB").addEventListener()
