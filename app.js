@@ -9,4 +9,5 @@ function changeGBPrice(event) {
     }
 }
 
-document.querySelector("GB").addEventListener()
+document.querySelector("GB").addEventListener("change", changeGBPrice)
+
