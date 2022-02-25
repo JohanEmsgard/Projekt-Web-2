@@ -3,6 +3,15 @@ h1 {
   background-color: darkblue;
 }
 
+.TopHeader {
+  text-align: center;
+  background: darkblue;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin: 0%;
+}
+
 nav {
   justify-content: space-around;
   display: flex;
@@ -39,4 +48,12 @@ nav {
 body{
   background-image: url("3426768_650_364.jpg");
 
+}
+
+.HomeStart {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+  width: 370px;
+  box-shadow: #333;
 }
