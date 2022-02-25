@@ -57,3 +57,11 @@ body{
   width: 370px;
   box-shadow: #333;
 }
+
+.Product2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  width: 350px;
+  box-shadow: 2px 2px 4px #333;
+}
