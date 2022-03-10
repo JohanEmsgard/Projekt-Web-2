@@ -9,8 +9,13 @@ function changeGBPrice(event) {
     }
 }
 
+
+
 let gb2Element = document.querySelector("#GB2");
 if (gb2Element != null) {
-    gb2Element.addEventListener("change", changeGB2Price);
+    gb2Element.addEventListener("change", changeGBPrice);
+    if (target.value ==="256"){
+        document.querySelector(".price-container2").innerHTML = "8000"
+    }
 }
 
