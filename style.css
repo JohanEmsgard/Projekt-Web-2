@@ -85,3 +85,9 @@ P {
   width: auto;
   
 }
+
+.kontaktus{
+   display: flex;
+   justify-content: space-around;
+
+}
