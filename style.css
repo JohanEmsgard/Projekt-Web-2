@@ -82,12 +82,13 @@ P {
   border: 3px;
   margin: auto;
   padding: 2%;
-  width: auto;
+  width: 20%;
   
 }
 
-.kontaktus{
-   display: flex;
-   justify-content: space-around;
 
+
+nav{
+  justify-content: space-around;
+  display: flex;
 }
