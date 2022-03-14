@@ -11,7 +11,7 @@ function changeGBPrice(event) {
 }
 
 
-function changePurple(event) {
+function changephonecolor(event) {
     if (event.target.value === "Svart") {
         document.querySelector(".phonecolor").setAttribute("src", "./Blacksamsungs21.webp");
     }

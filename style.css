@@ -1,6 +1,7 @@
-.h1 {
+h1 {
   text-align: center;
   background-color: darkblue;
+  border: 20%;
 }
 
 .TopHeader {
@@ -91,4 +92,9 @@ P {
 nav{
   justify-content: space-around;
   display: flex;
+}
+
+.Sell {
+  align-items: center;
+  display: grid;
 }
