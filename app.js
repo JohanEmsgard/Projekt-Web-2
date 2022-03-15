@@ -21,6 +21,15 @@ function changecolor2(event) {
         let changecolor = document.querySelector(".color2")
         changecolor.setAttribute("src", "./whitesamsungs21.png")
     }
+
+    if (event.target.value ==="Lilla") {
+        let changecolor = document.querySelector(".color2")
+        changecolor.setAttribute("src", "./samsung.webp")
+    }
+    if (event.target.value ==="Rosa") {
+        let changecolor = document.querySelector(".color2")
+        changecolor.setAttribute("src", "./pinksamsungs21.webp")
+    }
 }
 
 let gb2Element = document.querySelector("#GB2");
