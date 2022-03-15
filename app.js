@@ -30,7 +30,13 @@ function changecolor2(event) {
         let changecolor = document.querySelector(".color2")
         changecolor.setAttribute("src", "./pinksamsungs21.webp")
     }
-}
+
+        if (event.target.value ==="Röd") {
+            let changecolor = document.querySelector(".color2")
+            changecolor.setAttribute("src", "./redsamsungs20.webp")
+        }
+    }
+
 
 let gb2Element = document.querySelector("#GB2");
 if (gb2Element != null) {
