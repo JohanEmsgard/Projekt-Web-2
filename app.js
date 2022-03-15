@@ -1,4 +1,5 @@
 document.querySelector("#GB").addEventListener("change", changeGBPrice);
+document.querySelector("#color").addEventListener("change", changecolor2);
 
 function changeGBPrice(event) {
     if (event.target.value === "128GB") {
@@ -11,9 +12,14 @@ function changeGBPrice(event) {
 }
 
 
-function changephonecolor(event) {
+function changecolor2(event) {
     if (event.target.value === "Svart") {
-        document.querySelector(".phonecolor").setAttribute("src", "./Blacksamsungs21.webp");
+        let changecolor = document.querySelector(".color2");
+        changecolor.setAttribute("src", "./Blacksamsungs21.webp");
+    }
+    if (event.target.value ==="Vit") {
+        let changecolor = document.querySelector(".color2")
+        changecolor.setAttribute("src", "./whitesamsungs21.png")
     }
 }
 
