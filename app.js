@@ -1,5 +1,12 @@
 document.querySelector("#GB").addEventListener("change", changeGBPrice);
 document.querySelector("#color").addEventListener("change", changecolor2);
+document.querySelector("#GB2").addEventListener("change",changeGB2Price)
+
+function changeGB2Price(event) {
+    if (event.target.value ==="256GB"){
+        document.querySelector(".price-container").innerHTML = "6500:- SEK"
+    }
+}
 
 function changeGBPrice(event) {
     if (event.target.value === "128GB") {
@@ -10,6 +17,8 @@ function changeGBPrice(event) {
     }
 
 }
+
+
 
 
 function changecolor2(event) {
@@ -31,11 +40,12 @@ function changecolor2(event) {
         changecolor.setAttribute("src", "./pinksamsungs21.webp")
     }
 
-        if (event.target.value ==="Röd") {
-            let changecolor = document.querySelector(".color2")
-            changecolor.setAttribute("src", "./redsamsungs20.webp")
-        }
+    if (event.target.value === "Röd"){
+        let changecolor = document.querySelector(".color2")
+        changecolor.setAttribute("src", "./redsamsungs20.webp")
     }
+ 
+}
 
 
 let gb2Element = document.querySelector("#GB2");
