@@ -1,10 +1,10 @@
 document.querySelector("#GB").addEventListener("change", changeGBPrice);
 document.querySelector("#color").addEventListener("change", changecolor2);
-document.querySelector("#GB2").addEventListener("change",changeGB2Price)
+document.querySelector("#G").addEventListener("change",changeGPrice)
 
-function changeGB2Price(event) {
-    if (event.target.value ==="256GB"){
-        document.querySelector(".price-container").innerHTML = "6500:- SEK"
+function changeGPrice(event) {
+    if (event.target.value ==="5"){
+        document.querySelector(".price-container2").innerHTML = "6500:- SEK"
     }
 }
 
