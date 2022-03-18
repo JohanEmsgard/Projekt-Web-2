@@ -48,11 +48,11 @@ function changecolor2(event) {
 }
 
 
-let gb2Element = document.querySelector("#GB2");
-if (gb2Element != null) {
-    gb2Element.addEventListener("change", changeGBPrice);
-    if (target.value ==="256"){
-        document.querySelector(".price-container2").innerHTML = "8000:- SEK";
+let GElement = document.querySelector("#G");
+if (GElement != null) {
+    GElement.addEventListener("change", changeGBPrice);
+    if (target.value ==="5G"){
+        document.querySelector(".price-container2").innerHTML = "7000:- SEK";
     }
 }
 

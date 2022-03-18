@@ -1,14 +1,21 @@
+body {
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 h1 {
   text-align: center;
   background-color: darkblue;
   border: 20%;
+  padding: 1%;
 }
 
 .TopHeader {
   text-align: center;
   background: darkblue;
   color: white;
-  width: 100%;
   padding: 10px;
   margin: 0%;
   text-size-adjust: 100;
@@ -17,6 +24,8 @@ h1 {
 nav {
   justify-content: space-around;
   display: flex;
+  background-color: pink;
+  padding: 1%;
 }
 
 .product {
@@ -48,9 +57,8 @@ nav {
   align-items: center;
 }
 
-body{
+body {
   background-image: url("3426768_650_364.jpg");
-
 }
 
 .HomeStart {
@@ -70,7 +78,7 @@ body{
   box-shadow: 2px 2px 4px #333;
 }
 
-.Samsungs20{
+.Samsungs20 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: column;
@@ -84,12 +92,9 @@ P {
   margin: auto;
   padding: 2%;
   width: 20%;
-  
 }
 
-
-
-nav{
+nav a {
   justify-content: space-around;
   display: flex;
 }
@@ -98,9 +103,10 @@ nav{
   align-items: center;
   display: grid;
   grid-auto-flow: column;
-
 }
 
 img {
   width: 100%;
 }
+
+
